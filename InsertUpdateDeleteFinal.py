@@ -20,7 +20,7 @@ class App(tkinter.Frame):
         self.pady = self.padx
         
         self.rmin = 3 #minimal number of nonempty rows in selected .ods file (headers and at least 1 row)
-        self.rmax = 1000000 #maximal number of nonempty rows in selected file (without headers)
+        self.rmax = 100002 #maximal number of nonempty rows in selected file (with headers)
         #self.rlim = self.rmax #number of rows to get once
         self.rnum = 0 #number of nonempty rows in selected file (without headers)
         self.initDir = "~" #initial directory path"
